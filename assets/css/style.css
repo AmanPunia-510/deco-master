@@ -12,6 +12,7 @@
     --fs-20: 20px;
     --fs-36: 36px;
     --fs-48: 48px;
+    --fs-64: 64px;
     --fs-16: 16px;
     --fs-24: 24px;
     --fs-144: 144px;
@@ -29,6 +30,15 @@
     --black-color: #000000;
     --white-color: #ffffff;
     --p-color: #4D4D4D;
+    --color-80: #010080;
+}
+
+.fs-64{
+    font-size: var(--fs-64);
+} 
+
+.color-80{
+    color: var(--color-80);
 }
 
 .p-color {
@@ -208,6 +218,21 @@
 .hidden {
     visibility: hidden;
     display: none !important;
+}
+
+.sec6-p{
+    max-width: 471px;
+}
+
+.read-more-btn{
+    height: 49px;
+    width: 165px;
+    background-color: var(--color-80);
+    border-radius: 4px;
+}
+
+.mb-24{
+    margin-bottom: -24px;
 }
 
 @media (min-width: 1399.9px) {
