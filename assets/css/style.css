@@ -233,6 +233,59 @@
     outline: none;
 }
 
+.line {
+    display: none;
+}
+
+@media (min-width: 1399.9px) {
+    .line {
+        width: 100%;
+        position: relative;
+        bottom: 126px;
+        right: 21px;
+        display: flex;
+    }
+
+    .row-one {
+        z-index: 2;
+    }
+
+    .row-two {
+        position: absolute;
+        top: 65%;
+        left: 13%;
+    }
+
+    .item-3 {
+        position: relative;
+        right: 4%;
+    }
+
+    .row-two {
+        width: 80%;
+    }
+
+    .line-row2 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1920px) {
+    .line {
+        bottom: 164px;
+        right: 44px;
+    }
+
+    .row-two {
+        top: 60%;
+        left: 11%;
+    }
+
+    .item-1 {
+        position: relative;
+        left: 4%;
+    }
+}
 
 @media (max-width: 992px) {
     .menubar {
@@ -257,5 +310,42 @@
         left: -50%;
         background: #A6B236;
         transition: all 300ms linear !important;
+    }
+
+    .row-one,
+    .row-two {
+        width: 50% !important;
+    }
+
+    .line-row {
+        display: none;
+    }
+
+    .item1,
+    .item2,
+    .item3,
+    .item4 {
+        padding: 0 12px;
+        margin-bottom: 24px;
+    }
+}
+
+@media (max-width: 576px) {
+       .row-one{
+        width: 100% !important;
+       }
+
+       .row-two{
+        width: 100% !important;
+       }
+}
+
+@media (max-width: 1399.9px) {
+    .row-two {
+        width: 72%;
+    }
+
+    .progress-box{
+        flex-direction: column !important;
     }
 }
