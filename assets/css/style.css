@@ -272,6 +272,7 @@
     bottom: 20px;
     left: 36px;
     padding: 17px 37px;
+    right: 10px;
 }
 
 .txt-2 {
@@ -318,7 +319,7 @@
 
 .subscribe-btn {
     width: 165px;
-    height: 78px;
+    height: 68px;
     border: none;
     outline: none;
     background-color: var(--color-80);
@@ -439,6 +440,10 @@
         width: 100% !important;
     }
 
+    .design-sec6{
+        display: none;
+    }
+
 }
 
 @media (max-width: 1399.9px) {
@@ -486,7 +491,29 @@
     }
 }
 
-@media (min-width: 320px) {}
+@media (min-width: 320px) {
+    .new {
+        font-size: 40px;
+        bottom: 31px;
+    }
+
+    .stiller-card {
+        height: 256px;
+        border-radius: 18px;
+        margin-bottom: 100px;
+    }
+
+    .email-subscribe {
+        flex-direction: column;
+    }
+
+    .email {
+        width: 92% !important;
+        margin-top: 25px;
+        font-size: var(--fs-16);
+
+    }
+}
 
 @media (min-width: 576px) {
 
@@ -501,18 +528,30 @@
     .bb-sm-dot {
         border-bottom: 1px dotted;
     }
+
+    .new {
+        font-size: 63px;
+        bottom: 44px;
+    }
+
 }
 
 @media (min-width: 768px) {
-    .stiller-card {
-            height: 265px;
-            border-radius: 18px;
-        }
-    
-        .new {
-            font-size: 78px;
-            bottom: 62px;
-        }
+
+    .new {
+        font-size: 78px;
+        bottom: 62px;
+    }
+
+    .email-subscribe {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .email{
+        margin-top: 0;
+        width: 50% !important;
+    }
 }
 
 @media (min-width: 992px) {
