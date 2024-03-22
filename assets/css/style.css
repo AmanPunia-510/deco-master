@@ -329,6 +329,47 @@
     bottom: 38px;
 }
 
+.footer{
+    background-color: var(--black-color);
+}
+
+.footer-logo{
+    padding-top: 54px;
+}
+
+.footer-p{
+    max-width: 536px;
+}
+
+.commen-svg{
+width: 40px;
+height: 40px;
+background-color: #444444;
+border-radius: 50%;
+}
+
+.commen-svg:hover{
+background-color: var(--white-color);
+    box-shadow: 0px 0px 15px 1px var(--white-color);
+}
+
+.commen-svg:hover svg path{
+    fill: var(--black-color);
+}
+
+.mt-80{
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.footer-line{
+    border-top: 1px solid var(--white-color);
+}
+
+.copywrt{
+    padding: 36px 0;
+}
+
 @media (min-width: 1399.9px) {
     .line {
         width: 100%;
