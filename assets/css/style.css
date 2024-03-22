@@ -27,6 +27,7 @@
     --navbar-list-color: #9003E5;
     --btn-color-me: linear-gradient(90.44deg, #9003E5 2.42%, #F93B95 99.69%);
     --btn-color-txt: linear-gradient(90deg, #9104E5 0%, #F93B96 96.47%);
+    --new: linear-gradient(90deg, #9104E5 0%, #F93B96 96.47%);
     --black-color: #000000;
     --white-color: #ffffff;
     --p-color: #4D4D4D;
@@ -290,6 +291,42 @@
     background-color: var(--color-80);
     min-height: 80vh;
     margin-top: 200px;
+}
+
+.mb-200 {
+    margin-bottom: 200px;
+}
+
+.stiller-card {
+    background-color: #dcdcdc;
+    height: 394px;
+    border-radius: 45px;
+}
+
+.new {
+    color: transparent;
+    background-image: var(--new);
+    background-clip: text;
+    bottom: 106px;
+    opacity: 50%;
+}
+
+.subscribe-btn{
+    width: 165px;
+        height: 78px;
+        border: none;
+        outline: none;
+        background-color: var(--color-80);
+}
+
+.email{
+    border: none;
+    outline: none;
+    padding: 22px 40px;
+}
+
+.email-subscribe{
+    bottom: 38px;
 }
 
 @media (min-width: 1399.9px) {
