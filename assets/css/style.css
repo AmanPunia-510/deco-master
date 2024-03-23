@@ -445,19 +445,24 @@
     right: 0;
 }
 
-.design-sec9{
-        bottom: 10%;
-        left: 26px;
+.design-sec9 {
+    bottom: 10%;
+    left: 26px;
 }
 
-.design2-sec9{
-        bottom: 0%;
-            right: -9%;
+.design2-sec9 {
+    bottom: 0%;
+    right: -9%;
 }
 
-.section7-right{
-        right: 0;
-            bottom: 50%;
+.section7-right {
+    right: 0;
+    bottom: 50%;
+}
+
+.section8-bottom {
+    bottom: 0;
+    right: 0;
 }
 
 @media (max-width: 1200px) {
@@ -557,8 +562,8 @@
         opacity: 30%;
     }
 
-    .sec8-bottom-right{
-            opacity: 53%;
+    .sec8-bottom-right {
+        opacity: 53%;
     }
 
 }
