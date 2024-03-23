@@ -432,13 +432,26 @@
     border-image-slice: 1;
 }
 
-.commen-svg{
+.commen-svg {
     cursor: pointer;
+}
+
+.sec8-bottom-left {
+    top: 0px;
+}
+
+.sec8-bottom-right {
+    top: -303px;
+    right: 0;
 }
 
 @media (max-width: 1200px) {
     .sec8-txt {
         text-align: center;
+    }
+
+    .sec8-bottom-left {
+        display: none !important;
     }
 
 }
@@ -527,6 +540,10 @@
 
     .section4-left {
         opacity: 30%;
+    }
+
+    .sec8-bottom-right{
+            opacity: 53%;
     }
 
 }
@@ -735,15 +752,15 @@
         bottom: 73px;
     }
 
-        .pr-t110 {
-            position: relative;
-            top: 212px;
-        }
+    .pr-t110 {
+        position: relative;
+        top: 212px;
+    }
 
-        .our-team{
-                position: relative;
-                    top: 100px;
-        }
+    .our-team {
+        position: relative;
+        top: 100px;
+    }
 }
 
 @media (min-width: 1399.9px) {

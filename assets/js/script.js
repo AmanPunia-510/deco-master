@@ -13,7 +13,6 @@ $('.slick-slider1').slick({
     slidesToShow: 4,
     autoplay: true,
     autoplaySpeed: 1000,
-    // rtl: true,
     slidesToScroll: 1,
     responsive: [
         {
