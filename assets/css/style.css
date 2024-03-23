@@ -299,10 +299,18 @@
     max-width: 100%;
 }
 
+.section7 {
+    padding-bottom: 100px;
+}
+
+.section7-top {
+    bottom: -6px;
+    left: 0;
+}
+
 .section8 {
     background-color: var(--color-80);
     min-height: 80vh;
-    margin-top: 200px;
 }
 
 .mb-200 {
