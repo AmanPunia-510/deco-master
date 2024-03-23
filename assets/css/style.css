@@ -445,6 +445,11 @@
     right: 0;
 }
 
+.design-sec9{
+        bottom: 10%;
+        left: 26px;
+}
+
 @media (max-width: 1200px) {
     .sec8-txt {
         text-align: center;
