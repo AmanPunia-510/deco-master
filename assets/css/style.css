@@ -752,6 +752,12 @@
         position: relative;
         left: 0%;
     }
+
+    .request-image {
+        /* border: 2px solid black; */
+        border-radius: 50%;
+        box-shadow: 2px 4px 32px;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -802,6 +808,12 @@
 
     .resident-p {
         font-size: var(--fs-64);
+    }
+
+    .request-image {
+        /* border: 2px solid black; */
+        border-radius: unset;
+        box-shadow: unset;
     }
 
     .resident-h {
