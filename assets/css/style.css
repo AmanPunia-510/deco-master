@@ -9,18 +9,18 @@
 }
 
 :root {
+    --fs-12: 12px;
+    --fs-16: 16px;
     --fs-18: 18px;
     --fs-20: 20px;
-    --fs-36: 36px;
-    --fs-12: 12px;
-    --fs-48: 48px;
-    --fs-64: 64px;
-    --fs-16: 16px;
     --fs-24: 24px;
     --fs-30: 30px;
+    --fs-36: 36px;
     --fs-40: 40px;
-    --fs-78: 78px;
+    --fs-48: 48px;
     --fs-63: 63px;
+    --fs-64: 64px;
+    --fs-78: 78px;
     --fs-100: 100px;
     --fs-144: 144px;
     --fw-300: 300;
@@ -156,6 +156,11 @@
     background-position: center;
     background-size: cover;
     margin-top: 70px;
+    height: 700px;
+}
+
+.height-700px {
+    height: 700px;
 }
 
 .color-me {
@@ -736,11 +741,11 @@
 
     .email {
         margin-top: 0;
-        width: 35% !important;
+        width: 33% !important;
     }
 }
 
-@media (min-width: 991.1px) {
+@media (min-width: 992px) {
     .br-lg-none {
         border-right: none;
     }
