@@ -155,6 +155,7 @@
     background-image: url(../images/section1.png);
     background-position: center;
     background-size: cover;
+    margin-top: 70px;
 }
 
 .color-me {
