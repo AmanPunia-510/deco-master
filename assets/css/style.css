@@ -473,6 +473,15 @@
     right: 0;
 }
 
+.cursor-none{
+    cursor: unset;
+}
+
+.home{
+    cursor: pointer;
+    width: fit-content;
+}
+
 @media (max-width: 1200px) {
     .sec8-txt {
         text-align: center;
